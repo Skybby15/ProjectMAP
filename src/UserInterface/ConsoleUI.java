@@ -115,13 +115,17 @@ public class ConsoleUI {
     private void StergePrietenieUi() {
         service.GetPrietenii().forEach(System.out::println);
 
-        System.out.println("Introdu perechea de id uri:");
-        String sIds = ReadOption();
-
         Tuple<Long, Long> Fid;
         try {
-            //separa numerele din input si le introduce intr un tuple
-            Fid = new Tuple<>(Long.parseLong(sIds.strip().split(" ")[0]), Long.parseLong(sIds.strip().split(" ")[1]));
+            System.out.println("Introdu primul id:");
+            String sId1 = ReadOption();
+            Long id1 = Long.parseLong(sId1.strip());
+
+            System.out.println("Introdu al doilea id:");
+            String sId2 = ReadOption();
+            Long id2 = Long.parseLong(sId2.strip());
+
+            Fid = new Tuple<>(id1, id2);
         } catch (NumberFormatException | ArrayIndexOutOfBoundsException e) {
             System.out.println("Perechea de id uri trebuie sa fie numere!(cu un singur spatiu intre ele!!)");
             return;

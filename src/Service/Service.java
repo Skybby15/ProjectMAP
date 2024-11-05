@@ -31,24 +31,27 @@ public class Service {
     }
 
     public void StergeUser(long idUser) throws ValidationException
-    {
-        Optional<Utilizator> deleted = userRepo.delete(idUser);
-        if(deleted.isEmpty())
+    {//modification needed
+        if(userRepo.findOne(idUser).isPresent())
+        {
+            //stergerea prieteniilor legate de user , trebuie realizat inainte datorita constrangerilor din sql
+            ArrayList<Tuple<Long,Long>> List = new ArrayList<>();
+
+            friendRepo.findAll().forEach(f ->{
+                if(f.getId().getLeft() == idUser || f.getId().getRight() == idUser)
+                {
+                    List.add(new Tuple<>(f.getId().getLeft(),f.getId().getRight()));
+                }
+            });
+
+            List.forEach(f->{
+                friendRepo.delete(f);
+            });
+
+            //apoi se sterge user-ul
+            Optional<Utilizator> deleted = userRepo.delete(idUser);
+        }else // altfel nu s-a gasit
             throw new ValidationException("Utilizatorul cu acest id nu exista!");
-
-        //stergerea prieteniilor legate de user
-        ArrayList<Tuple<Long,Long>> List = new ArrayList<>();
-
-        friendRepo.findAll().forEach(f ->{
-            if(f.getId().getLeft() == idUser || f.getId().getRight() == idUser)
-            {
-                List.add(new Tuple<>(f.getId().getLeft(),f.getId().getRight()));
-            }
-        });
-
-        List.forEach(f->{
-            friendRepo.delete(f);
-        });
 
     }
 
