@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dcfa785e-5f69-4def-ab18-31079ca814b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_7_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/DbRepos/PrietenieDbRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/DbRepos/UtilizatorDbRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/postgresql-42.7.4.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/18c03720-5a70-4bc3-8db3-25b87da7a8b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/18c03720-5a70-4bc3-8db3-25b87da7a8b2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/postgresql_42_7_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_7_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
@@ -26,7 +25,8 @@
       <change beforePath="$PROJECT_DIR$/src/Domain/Validators/UtilizatorValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Validators/UtilizatorValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Domain/Validators/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Validators/ValidationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Domain/Validators/Validator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Domain/Validators/Validator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/DbRepos/PrietenieDbRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/DbRepos/PrietenieDbRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/DbRepos/UtilizatorDbRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/DbRepos/UtilizatorDbRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/InFile/AbstractFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/InFile/AbstractFileRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/InFile/PrietenieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/InFile/PrietenieRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Repository/InFile/UtilizatorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/InFile/UtilizatorRepository.java" afterDir="false" />
@@ -35,6 +35,7 @@
       <change beforePath="$PROJECT_DIR$/src/Service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UserInterface/ConsoleUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UserInterface/ConsoleUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Utils/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utils/Passes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utils/Passes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +150,7 @@
       <workItem from="1730471756971" duration="29000" />
       <workItem from="1730474367409" duration="848000" />
       <workItem from="1730808965738" duration="544000" />
-      <workItem from="1730809524648" duration="13135000" />
+      <workItem from="1730809524648" duration="13706000" />
     </task>
     <servers />
   </component>

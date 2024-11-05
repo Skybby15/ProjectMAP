@@ -1,5 +1,5 @@
 package Utils;
 
 public class Passes {
-    public static String postgresPass = "Eusuntdestept2";
+    public static String postgresPass = "VvVvvvVVvVV";
 }
