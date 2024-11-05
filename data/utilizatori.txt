@@ -1,0 +1,7 @@
+0;George;Vasile
+1;Bogdan;Constantin
+3;Prenume;Nume
+4;Robert;Staiculescu
+5;Avanov;Madalin
+7;Adrian;Bostanicu
+8;asd;asd

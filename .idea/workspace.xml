@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dcfa785e-5f69-4def-ab18-31079ca814b2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectMAP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Prietenie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Tuple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Utilizator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Validators/PrietenieValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Validators/UtilizatorValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Validators/ValidationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Domain/Validators/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/InFile/AbstractFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/InFile/PrietenieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/InFile/UtilizatorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/InMemory/InMemoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UserInterface/ConsoleUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/Graph.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2nh7mGRi9tzyBLR0C5MnTrxtUXd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/University/Metode Avansate De Programare/ProjectMAP&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/savac/IdeaProjects/ProjectMAP/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ProjectMAP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcfa785e-5f69-4def-ab18-31079ca814b2" name="Changes" comment="" />
+      <created>1729413621050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729413621050</updated>
+      <workItem from="1729413622530" duration="432000" />
+      <workItem from="1729418796660" duration="627000" />
+      <workItem from="1729419974820" duration="2665000" />
+      <workItem from="1729422939547" duration="1444000" />
+      <workItem from="1729532969836" duration="6882000" />
+      <workItem from="1729573865145" duration="4471000" />
+      <workItem from="1729611965260" duration="459000" />
+      <workItem from="1729703311852" duration="10317000" />
+      <workItem from="1729768296246" duration="1287000" />
+      <workItem from="1729842033691" duration="288000" />
+      <workItem from="1729854594359" duration="1974000" />
+      <workItem from="1729861549029" duration="5230000" />
+      <workItem from="1730131353274" duration="74000" />
+      <workItem from="1730382420849" duration="9306000" />
+      <workItem from="1730392249014" duration="13000" />
+      <workItem from="1730469720397" duration="680000" />
+      <workItem from="1730471756971" duration="29000" />
+      <workItem from="1730474367409" duration="848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
